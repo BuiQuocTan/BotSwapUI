@@ -9,6 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+import icons
 
 
 class Ui_MainWindow(object):
@@ -99,16 +100,13 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.LD_addressA.setText(_translate("MainWindow", "      Adress token "))
+        self.LD_addressA.setText(_translate("MainWindow", "0x8BaBbB98678facC7342735486C851ABD7A0d17Ca"))
         self.label_2.setText(_translate("MainWindow", "Token B :"))
-        self.LD_soluong1.setText(_translate("MainWindow", "00000"))
+        self.LD_soluong1.setText(_translate("MainWindow", ""))
         self.Btn_Swap.setText(_translate("MainWindow", "Swap"))
         self.label.setText(_translate("MainWindow", "Token A :"))
-        self.LD_soluong1_2.setText(_translate("MainWindow", "00000"))
-        self.LD_addressA_2.setText(_translate("MainWindow", "      Adress token "))
-import icons
-
-
+        self.LD_soluong1_2.setText(_translate("MainWindow", ""))
+        self.LD_addressA_2.setText(_translate("MainWindow", "0x78867BbEeF44f2326bF8DDd1941a4439382EF2A7"))
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
